@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print(sortedArray())
-        view.backgroundColor = .orange
+        view.backgroundColor = .blue
         
     }
 
