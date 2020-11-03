@@ -9,13 +9,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var numbersArray = [28, 40, 15, 10, 60,90]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        view.backgroundColor = .blue
+        print(sortedArray())
+        view.backgroundColor = .orange
         
     }
 
+    func sortedArray () -> [Int] {
+        return numbersArray.sorted()
+        
+    }
 
 }
-
